@@ -53,7 +53,6 @@ const options = {
 
 function LineGraph({ casesType }) {
   
-  ChartJS.register(...registerables);
   const [data, setData] = useState({});
 
   useEffect(() => {

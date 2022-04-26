@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./Stats.css";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import StatsRow from "./StatsRow";
-import { key } from "./api";
+import { key } from "../api";
 import axios from "axios";
-import { db } from "./firebase";
+import { db } from "../firebase";
 
 const BASE_URL = "https://finnhub.io/api/v1/quote?symbol=";
 const KEY_URL = `&token=${key}`;

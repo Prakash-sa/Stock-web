@@ -1,5 +1,5 @@
 import React from "react";
-import StockChart from './stock.svg'
+import StockChart from '../img/stock.svg'
 
 function StatsRow(props) {
   //   console.log(props, "what is in props here?");

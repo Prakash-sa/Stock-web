@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import FlashOnIcon from "@material-ui/icons/FlashOn";
-import {key} from "./api";
+import {key} from "../api";
 import axios from "axios";
 
 const BASE_URL = "https://finnhub.io/api/v1/news?category=general";
